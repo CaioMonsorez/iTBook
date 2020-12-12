@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Data Machine</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Data Machine</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/data_mining_bg.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-heading">
+                        <h1>Mineração de dados - Aprenda o que é, pra que serve e como iniciar o processo de Data Mining</h1>
+                        <h2 class="subheading">Lista das bibliotecas e comandos mais utilizadas para Data Mining em Python e R</h2>
+                        <span class="meta">Posted by
+                            <a href="#">Caio Monsorez</a>
+                            on December 11, 2020</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <h2 class="section-heading">O que é e pra que serve Data Mining?</h2>
+                    <p> É impossível entender o termo "Data Mining" se nao explicar o conceito de Dados e Mining separadamente.
+                        No mundo dos Cientistas de Dados, Data, ou dado é um conjunto de informaçoōes contidas em um arquivo de extensão 
+                        json, csv, xml, por exemplo. 
+                        Esses dados, se analisados, garimpados e limpados, pode-se obter previsōes de alguns fatos. 
+                    </p>
+                    <p>
+                        
+                        Por exemplo:
+
+                    </P>
+                    <p>
+                        
+                        Previsao do climática.
+                        As previsões climáticas procuram nos dizer como será o clima daqui a alguns dias, se o planeta será mais quente ou mais
+                        frio daqui a alguns anos, se as chuvas serão mais frequentes ou menos intensas etc.
+                        Para sabermos se amanhã vai chover ou não, para prever um clima ensolarado ou nublado é necessário um conjunto de 
+                        dados (caracteristicas) para chegar a conclusão da meterológica. 
+                        Alguns dos numerosos dados que podem ser analisados pelos especialistas são normalmente condicionais:<br>
+                    </p>
+
+                    <p>
+                        - Nuvens mais negras que o habitual ( Sim ou nao?)<br>
+                        - Nuvens altas (sim ou nao?)<br>
+                        - Temperatura e umidade (sim ou nao?)<br>
+                        - Vento (sim ou nao?)<br>
+                        - A cor do céu (sim ou nao)<br>
+
+                    </p>
+                    <p>
+
+                        A partir desses dados respondidos, poderemos minerar os dados, ou seja explorar as informaçoōes para prever o clima. 
+
+                        Quem já se está acostumado com o Excel, explora dados pra conseguir um resultado padrao pela tabela dinamica, por exemplo.
+
+                        A tabela dinamica reune todas as informacoes de maneira visualmente mais organizada.
+                    
+                        A mineração de dados serve ao objetivo principal de descobrir padrões entre grandes volumes de dados e transformá-los em
+                         informações mais refinadas.</p>
+
+
+                    <h2 class="section-heading">Como minerar os dados?</h2>
+                    <p>Para melhor experiência de visualização de dados, a ferramenta que escolhi para produzir os codigos foi o Anaconda
+                        Navigator. 
+                    
+                    </p>
+                    <p>Existem inumeras ferramentas de codigo aberto pra minerar dados, como <b>Rapid Miner, Orange, Weka, Knime, Apache Mahout, Rattle, 
+                        Data Melt </b>, inclusive
+                        para quem gosta de VSCode, também é possível e excelente minerar por lá.  Mas, vou focar no Anaconda Navigator que é
+                        a ferramenta mais popular e amigável para Data Science.
+                    
+                    <p>
+                        O Anaconda Navigator contem centenas de pacotes instalados e podemos utilizar o python e R juntos.
+                        Dentro do Anaconda, utilizaremos a Aplicação cliente-servidor JUPYTER, que permite a edição e execução de notebooks via browser. Notebooks são
+                        documentos que contém código e elementos visuais como imagens, links, equações. A principal vantagema utilização de notebooks é
+                        para a descrição de análises e seus resultados de forma dinâmica e interativa.</p>
+                    </p>
+
+                    <p> Caso não haja a biblioteca instalada, é so utilizar o comando <code>conda</code> (gerenciamento de pacotes do Anaconda)
+                        para instalar pacotes novos.
+                    
+                    </p>
+
+                    <p>Anaconda tem versões para Windows, Linux e OSX, e já vem com o Python instalado, apenas escolha qual a versão você quer
+                    trabalhar.
+                    
+                    Para fazer download do Anaconda, <a href="https://www.anaconda.com/products/individual">clique aqui.</a></p>
+
+                    
+                    
+                    
+
+                    
+                    
+                    
+                    
+                    
+
+                    <h2 class="section-heading">Como Minerar Dados com Python?</h2>
+
+                    <p>Python sem duvidas, é a ferramenta mais querida pelos Cientistas de Dados pois possui uma rica biblioteca de análise exploratória preditiva e visual.</p>
+
+                    Para importar essas bibliotecas, utilize o comando <code>import</code> (nome da biblioteca) as (nome de como vc quer chamar sua lib)
+
+                    <p>Mas qual lib (biblioteca) mais usada pra minerar? </p>
+                    <p><b>1. NumPy:</b> Biblioteca Python para computação científica. Implementa arrays multidimensionais e permite a fácil
+                        execução de
+                        operações matemáticas e lógicas como ordenação, seleção, transformações, operações estatísticas básicas etc.</p>
+                    
+                    <p><b>2. Matplotlib:</b> Biblioteca Python 2D para a visualização e plotagem de gráficos. Pode ser utilizada para gerar
+                        diversos
+                        tipos de gráficos como histogramas, gráficos de barras, gráficos de pizza tudo de forma fácil e rápida.</p>
+                    
+                    <p><b>3. Pandas:</b> Esta biblioteca talvez seja a mais utilizada para análise de dados. Ela fornece ferramentas para
+                        manipulação de
+                        estruturas de dados de forma extremamente simples. Operações complexas que trabalham com matrizes e vetores podem
+                        ser
+                        facilmente realizadas com uma ótima performance.</p>
+                    
+                    <p><b>4. Scikit-Learn:</b> Biblioteca Python para trabalhar com Machine Learn (Aprendizado de Máquina). Contém diversos
+                        algoritmos
+                        implementados, métodos de análise e processamento de dados, métricas de avaliação etc. Essa é uma biblioteca
+                        extremamente útil para o cientista de dados.</p>
+                    
+                    <p><b>5. NLTK:</b> é uma plataforma líder para a construção de programas Python para trabalhar com dados de linguagem
+                        humana. Ele
+                        fornece interfaces fáceis de usar para mais de 50 corpora e recursos lexicais como o WordNet, juntamente com um
+                        conjunto
+                        de bibliotecas de processamento de texto para classificação, tokenização, stemming, tagging, análise e raciocínio
+                        semântico</p>
+                    
+                    <p><b>6. Scrapy:</b> Biblioteca Python para a raspagem ou coleta de dados a partir da Web. É possível coletar dados de
+                        sites, redes
+                        sociais, fóruns e diversos outros canais utilizando uma linguagem simples e objetiva. Extremamente útil para a
+                        geração
+                        de bases de dados.</p>
+
+                    
+
+                    <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of
+                        tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet
+                        far too little for the next ten.</blockquote>
+
+                
+
+                    
+                    <h2 class="section-heading">Como Minerar Dados com R?</h2>
+                    
+                    <p>O R é uma ferramenta destinada ao desenvolvimento de sistemas de apoio à
+                    decisão de análise de dados, bem como à execução de tarefas mais
+                    complexas que envolvam programação. Ao mesmo tempo, é uma linguagem
+                    de programação e um ambiente para computação estatística e gráficos.
+                    </p>
+                    
+                    <p>Mas qual lib (biblioteca) mais usada pra Data Mining em R? </p>
+                    <p><b>1. Rpart:</b> pode ser utilizada tanto para árvores de regressão como de
+                    classificação.</p>
+                    
+                    <p><b>2. lm:</b> Bpode ser usada para obter regressões lineares</p>
+                    
+                    <p><b>3. nnet:</b> é utilizada no âmbito das redes neuronais</p>
+                    
+
+                    <a href="#">
+                        <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
+                    </a>
+                    <span class="caption text-muted">To go places and do things that have never been done before –
+                        that’s what living is all about.</span>
+
+                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
+                        mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go
+                        where no man has gone before.</p>
+
+                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a
+                        fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
+
+                    <p>Placeholder text by
+                        <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
+                        <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
